@@ -1,0 +1,233 @@
+/* Latest auctions */
+
+.latestauctions {
+    position: absolute;
+    width: 1392px;
+    height: 884px;
+    left: 264px;
+    top: 1256px;
+}
+
+/* Latest live auctions */
+
+.latestlive {
+    position: absolute;
+    width: 360px;
+    height: 45px;
+    left: 516px;
+    top: 0px;
+}
+
+.latestlive {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+/* Rest/White */
+
+.latestlive, .vetor10, .tristique, .timeleft1 p{
+    color: #FFFFFF;
+}
+
+.vetor10 {
+    position: absolute;
+    left: 47.5%;
+    right: 46.5%;
+    top: 43.33%;
+    bottom: 43.33%;
+}
+.ellipse10 {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    
+    background: rgba(38, 40, 64, 0.8);
+    box-shadow: 0px 25px 75px rgba(6, 7, 20, 0.1);
+    backdrop-filter: blur(3.5px);
+}
+
+/* Note: backdrop-filter has minimal browser support */
+.ellipse10 {
+    border-radius: 16px;
+}
+
+/* Boxes Items */
+
+/* Auto layout */
+.boxesitems {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    
+    position: absolute;
+    width: 2336px;
+    height: 767px;
+    left: -472px;
+    top: calc(50% - 767px/2 + 58.5px);
+}
+.price1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 8px 14px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 100px;
+    height: 36px;
+    right: 26px;
+    top: 570px;
+}
+
+.timeleft1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    
+    position: absolute;
+    width: 119px;
+    height: 21px;
+    left: 24px;
+    top: 642px;
+}
+
+/* Inside auto layout */
+.bigboxitem1, .price1 h7 {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Big Box Item */
+
+.bigboxitem1 {
+    box-sizing: border-box;
+
+    width: 448px;
+    height: 767px;
+
+}
+    /* On White/Dark 90 */
+.bigboxitem1 {
+    border: 1px solid #262840;
+    border-radius: 20px;
+}
+
+/* Tristique diam a, enim, eros tellus. Viverra etiam */
+
+.tristique {
+    position: absolute;
+    width: 276px;
+    height: 50px;
+    left: 24px;
+    top: 568px;
+}
+
+/* H6 */
+
+.tristique {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+}
+
+/* H7 */
+
+.price1 h7 {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.2px;    
+}
+
+/* Price */
+
+/* Primary/Purple Light 15 */
+.price1 {
+    background: rgba(81, 76, 255, 0.15);
+    border-radius: 4px;
+}
+
+/* 2.55 ETH */
+
+.price1 h7 {
+    width: 72px;
+    height: 20px;
+}
+
+/* Primary/Purple Light 100 */
+
+.price1 h7 {
+    color: #514CFF;
+}
+
+/* Time Left */
+
+/* Timer Icon */
+.timeicon1 {
+    width: 20px;
+    height: 20px;
+}
+
+/* Vector */
+.time {
+    position: absolute;
+    width: 14.22px;
+    height: 16px;
+    left: calc(50% - 14.22px/2 - 0.39px);
+    top: calc(50% - 16px/2);
+}
+
+/* 57:15 min left */
+.timeleft1 p {
+    width: 84px;
+    height: 21px;
+}
+
+/* Body Normal - 14px */
+.timeleft1 p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+}
+/* identical to box height, or 21px */
+.timeleft1 p{
+    letter-spacing: 0.2px;
+}
+
+/* Divider */
+.dividir1 {
+    position: absolute;
+    height: 0px;
+    left: 24px;
+    right: 24px;
+    bottom: 76px;
+}
+/* On White/Dark 90 */
+.dividir1 {
+    border: 1px solid #262840;
+}
