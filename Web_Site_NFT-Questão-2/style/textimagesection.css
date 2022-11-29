@@ -1,0 +1,234 @@
+/* Auto layout */
+
+.lefttext {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+    
+    position: absolute;
+    width: 590px;
+    height: 406px;
+    left: 0px;
+    top: calc(50% - 406px/2);
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    
+    width: 590px;
+    height: 306px;
+}
+
+.textheader {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    
+    width: 590px;
+    height: 226px;
+}
+
+.buttonright {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    
+    width: 302px;
+    height: 52px;
+}
+
+.button1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 10px;
+    
+    width: 144px;
+    height: 52px;
+}
+
+.button2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 10px;
+    
+    width: 142px;
+    height: 52px;
+}
+
+/* On White/Dark 90 */
+
+.button1 {
+    background: linear-gradient(104.42deg, #4745D0 0%, #2A27C9 60.23%);
+    box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.1), inset 4px 4px 4px rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+}
+
+.button2 {    
+    border: 2px solid #262840;
+    box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.1), inset 4px 4px 4px rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+}
+/* Inside auto layout */
+
+.text, .textheader, .textheader p, .button1, .button1 p, .button2 p{
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.textheader h1, .buttonright, .button2 {
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* Text + Image Section */
+
+.textimagesection {
+    position: absolute;
+    width: 1392px;
+    height: 616px;
+    left: 264px;
+    top: 2240px;
+}
+
+/* Right - Image */
+
+.rightimage {
+    position: absolute;
+    width: 684px;
+    height: 616px;
+    right: 0px;
+    top: calc(50% - 616px/2);
+    
+    border-radius: 20px;
+}
+
+.image7 {
+    position: absolute;
+    width: 386px;
+    height: 386px;
+    left: calc(50% - 386px/2 - 133px);
+    top: calc(50% - 386px/2 + 99px);
+    
+    background: url(.png);
+}
+
+.image8 {
+    position: absolute;
+    width: 430px;
+    height: 430px;
+    left: calc(50% - 430px/2 + 111px);
+    top: calc(50% - 430px/2 - 77px);
+    
+    background: url(.png);
+}
+
+/* Overline */
+
+.textheader p {
+    width: 263px;
+    height: 18px;
+}
+
+.textheader p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/* On White/Grey 100 */
+
+.textheader p, .text p, .button2 p{
+    color: #7780A1;
+}
+
+/* Sapien ipsum scelerisque convallis fusce */
+
+.textheader h1 {
+    width: 590px;
+    height: 192px;
+}
+
+/* H1 */
+
+.textheader h1 {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 100%;
+}
+
+/* or 64px */
+
+.textheader h1 {
+    letter-spacing: 0.2px;
+}
+
+/* Rest/White */
+
+.textheader h1, .button1 p, .button2 p {
+    color: #FFFFFF;
+}
+
+/* Ut amet vulputate faucibus vitae semper eget auctor. Diam tempor pulvinar ultricies dolor feugiat aliquam commodo. */
+
+.text p {
+    width: 459px;
+    height: 48px;
+}
+
+/* Body Medium - 16px */
+
+.text p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+/* or 24px */
+
+.text p {
+    letter-spacing: 0.2px;
+}
+
+/* Button Text */
+
+.button1 p, .button2 p {
+    width: 96px;
+    height: 20px;
+    
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+}

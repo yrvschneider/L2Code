@@ -32,7 +32,7 @@
 
 /* Rest/White */
 
-.latestlive, .vetor10, .tristique, .timeleft1 p{
+.latestlive, .vetor10, .tristique, .timeleft1 p, .timeleft2 p, .timeleft3 p, .timeleft4 p, .timeleft5 p{
     color: #FFFFFF;
 }
 
@@ -76,6 +76,7 @@
     left: -472px;
     top: calc(50% - 767px/2 + 58.5px);
 }
+
 .price1 {
     display: flex;
     flex-direction: row;
@@ -86,6 +87,36 @@
     
     position: absolute;
     width: 100px;
+    height: 36px;
+    right: 26px;
+    top: 570px;
+}
+
+.price2, .price4, .price5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 8px 14px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 97px;
+    height: 36px;
+    right: 26px;
+    top: 570px;
+}
+
+.price3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 8px 14px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 90px;
     height: 36px;
     right: 26px;
     top: 570px;
@@ -105,24 +136,205 @@
     top: 642px;
 }
 
-/* Inside auto layout */
-.bigboxitem1, .price1 h7 {
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+.timeleft2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    
+    position: absolute;
+    width: 112px;
+    height: 21px;
+    left: 24px;
+    top: 642px;
 }
 
+.timeleft3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    
+    position: absolute;
+    width: 122px;
+    height: 21px;
+    left: 24px;
+    top: 642px;
+    
+}
+
+.timeleft4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    
+    position: absolute;
+    width: 120px;
+    height: 21px;
+    left: 24px;
+    top: 642px;
+}
+
+.timeleft5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    
+    position: absolute;
+    width: 118px;
+    height: 21px;
+    left: 24px;
+    top: 642px;    
+}
+
+.biddingpeople2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    
+    position: absolute;
+    width: 293px;
+    height: 32px;
+    left: 24px;
+    bottom: 24px;
+}
+
+.biddingpeople3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    
+    position: absolute;
+    width: 298px;
+    height: 32px;
+    left: 24px;
+    bottom: 24px;
+}
+
+.biddingpeople4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    
+    position: absolute;
+    width: 259px;
+    height: 32px;
+    left: 24px;
+    bottom: 24px;
+}
+
+.biddingpeople5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    
+    position: absolute;
+    width: 291px;
+    height: 32px;
+    left: 24px;
+    bottom: 24px;
+}
+
+.avatars1, .avatars2, .avatars3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 128px;
+    height: 32px;
+}
+
+.avatars4 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 96px;
+    height: 32px;
+}
+
+.avatars5 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 128px;
+    height: 32px;
+}
+
+.fav2, .fav3{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    
+    position: absolute;
+    width: 53px;
+    height: 21px;
+    right: 24px;
+    bottom: 30px;
+}
+
+.fav4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    
+    position: absolute;
+    width: 46px;
+    height: 21px;
+    right: 24px;
+    bottom: 30px;
+}
+
+.fav5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    
+    position: absolute;
+    width: 53px;
+    height: 21px;
+    right: 24px;
+    bottom: 30px;
+}
 /* Big Box Item */
 
-.bigboxitem1 {
+.bigboxitem1, .bigboxitem2, .bigboxitem3, .bigboxitem4, .bigboxitem5 {
     box-sizing: border-box;
 
     width: 448px;
     height: 767px;
 
 }
-    /* On White/Dark 90 */
-.bigboxitem1 {
+
+/* On White/Dark 90 */
+.bigboxitem1, .bigboxitem2, .bigboxitem3, .bigboxitem4, .bigboxitem5 {
     border: 1px solid #262840;
     border-radius: 20px;
 }
@@ -150,7 +362,7 @@
 
 /* H7 */
 
-.price1 h7 {
+.price1 h7, .price2 h7, .price3 h7, .price4 h7, .price5 h7 {
     font-family: 'Sora';
     font-style: normal;
     font-weight: 600;
@@ -165,7 +377,7 @@
 /* Price */
 
 /* Primary/Purple Light 15 */
-.price1 {
+.price1, .price2, .price3, .price4, .price5 {
     background: rgba(81, 76, 255, 0.15);
     border-radius: 4px;
 }
@@ -177,22 +389,37 @@
     height: 20px;
 }
 
+.price2 h7 {
+    width: 69px;
+    height: 20px;
+    
+}
+
+.price3 h7 {
+    width: 62px;
+    height: 20px;
+}
+
+.price4 h7, .price5 h7{
+    width: 69px;
+    height: 20px;
+}
 /* Primary/Purple Light 100 */
 
-.price1 h7 {
+.price1 h7, .price2 h7, .price3 h7, .price4 h7, .price5 h7{
     color: #514CFF;
 }
 
 /* Time Left */
 
 /* Timer Icon */
-.timeicon1 {
+.timeicon1, .timeicon2, .timeicon3, .timeicon4, .timeicon5 {
     width: 20px;
     height: 20px;
 }
 
 /* Vector */
-.time {
+.time, .timeicon2, .timeicon3, .timeicon4, .timeicon5 {
     position: absolute;
     width: 14.22px;
     height: 16px;
@@ -200,14 +427,37 @@
     top: calc(50% - 16px/2);
 }
 
+.heart1, .heart2, .heart3, .heart4, .heart5 {
+    position: absolute;
+    left: 8.33%;
+    right: 8.34%;
+    top: 12.5%;
+    bottom: 13.19%;
+}
+
 /* 57:15 min left */
-.timeleft1 p {
+.timeleft1 p, .timeleft2 p {
     width: 84px;
     height: 21px;
 }
 
+.timeleft3 p {
+    width: 94px;
+    height: 21px;    
+}
+
+.timeleft4 p {
+    width: 92px;
+    height: 21px;
+}
+
+.timeleft5 p {
+    width: 90px;
+    height: 21px;
+}
+
 /* Body Normal - 14px */
-.timeleft1 p{
+.timeleft1 p, .timeleft2 p, .timeleft3 p, .timeleft4 p, .timeleft5 p, .biddingpeople1 p, .biddingpeople2 , .biddingpeople3 p, .biddingpeople4 p, .biddingpeople5 p{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -215,12 +465,12 @@
     line-height: 150%;
 }
 /* identical to box height, or 21px */
-.timeleft1 p{
+.timeleft1 p, .timeleft2 p, .timeleft3 p, .timeleft4 p, .timeleft5 p, .biddingpeople1 p, .biddingpeople2 p, .biddingpeople3 p, .biddingpeople4 p, .biddingpeople5 p, .fav2 p, .fav5 p{
     letter-spacing: 0.2px;
 }
 
 /* Divider */
-.dividir1 {
+.dividir1, .dividir2, .dividir3, .dividir4, .dividir5 {
     position: absolute;
     height: 0px;
     left: 24px;
@@ -228,6 +478,153 @@
     bottom: 76px;
 }
 /* On White/Dark 90 */
-.dividir1 {
+.dividir1, .dividir2, .dividir3, .dividir4, .dividir5 {
     border: 1px solid #262840;
+}
+
+/* On White/Grey 100 */
+.biddingpeople1 p, .biddingpeople2 p, .biddingpeople3 p, .biddingpeople4 p, .biddingpeople5 p, .fav2 p, .fav3 p, .fav4 p, .fav5 p{
+    color: #7780A1;
+}
+
+.fav2 {
+    border: 1px solid #7780A1;
+}
+
+/* 01 */
+
+.img01_02, .img02_02, .img03_02, .img04_02, .img01_3, .img02_3, .img03_3, .img04_3, .img01_4, .img02_4, .img03_4, .img04_4, .img01_5, .img02_5, .img03_5, .img04_5{
+    width: 32px;
+    height: 32px;
+    
+    background: url(.png);
+}
+
+/* On White/Dark 100 */
+.img01_02, .img02_02, .img03_02, .img04_02, .img01_3, .img02_3, .img03_3, .img04_3, .img01_4, .img02_4, .img03_4, .img04_4, .img01_5, .img02_5, .img03_5, .img04_5 {
+    border: 5px solid #060714;
+}
+
+/* Inside auto layout */
+.bigboxitem1, .timeicon2, .timeicon3, .timeicon4, .timeicon5, .price1 h7, .price2 h7, .price3 h7, .price4 h7, .price5 h7, .img01_02, .img01_3, .img01_4, .img01_5, .fav2, .fav3, .fav4, .fav5, .avatars1, .avatars2, .avatars3, .avatars4, .avatars5, .headicon5{
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.bigboxitem2, .timeleft2 p, .timeleft3 p, .timeleft4 p, .timeleft5 p, .img02_02, .img02_3, .img02_4, .img02_5, .biddingpeople1 p, .biddingpeople2 p, .biddingpeople3 p, .biddingpeople4 p, .biddingpeople5 p, .fav2 p, .fav3 p, .fav4 p, .fav5 p{
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.bigboxitem3, .img03_3, .img03_4, .img04_5 {
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.bigboxitem4, .img04_3, .img04_4, .img04_5 {
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.bigboxitem5 {
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+.img03_02 {
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.img04_02 {
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+/* Heart Icon */
+.hearticon2, .hearticon3, .hearticon4{
+    width: 20px;
+    height: 20px;
+}
+
+/* 54 */
+.fav2 p{
+    width: 25px;
+    height: 21px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.fav4 p {
+    width: 18px;
+    height: 21px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.fav5 {
+    width: 25px;
+    height: 21px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+/* Item */
+.item1, .item2, .item3, .item4, .item5{
+    position: absolute;
+    width: 400px;
+    height: 520px;
+    left: 24px;
+    top: 24px;
+    
+    border-radius: 20px;
+}
+
+/* Image */
+.image10_1, .image10_2, .image11_1, .image11_2, .image12_1, .image12_2, .image13_1, .image13_2, .image14_1, .image14_2 {
+    position: absolute;
+    width: 400px;
+    height: 520px;
+    left: 0px;
+    top: 0px;
+    
+    background: url(.png);
+}
+
+/* Item Blur Shadow */
+.itemblurshadow1, .itemblurshadow2, .itemblurshadow3, .itemblurshadow4, .itemblurshadow5 {
+    position: absolute;
+    width: 400px;
+    height: 520px;
+    left: 24px;
+    top: 40px;
+    
+    opacity: 0.2;
+    filter: blur(17.5px);
+    border-radius: 20px;
+}
+
+/* 14 people are bidding */
+.biddingpeople3 p, .biddingpeople4 p, .biddingpeople5 p{
+    width: 154px;
+    height: 21px;    
 }
