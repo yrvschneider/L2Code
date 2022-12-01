@@ -1,0 +1,17 @@
+/* Home Dark */
+
+#HomeDark {
+
+    position: relative;
+    width: 1920px;
+    height: 3965px;
+
+}
+
+/* On White/Dark 100 */
+
+#HomeDark {
+    /* background: #6495ED; */
+    background: #060714;
+    border-radius: 20px;
+}

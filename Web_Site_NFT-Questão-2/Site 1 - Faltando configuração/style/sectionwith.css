@@ -1,0 +1,201 @@
+/* Section With Icons */
+
+.sectionicon {
+    position: absolute;
+    width: 920px;
+    height: 135px;
+    left: 468px;
+    top: 3130px;
+}
+
+/* todos Icon */
+
+.usericon, .artworks, .artist, .ethspent{
+    width: 32px;
+    height: 32px;
+}
+
+/* Auto layout */
+
+.useraction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    
+    position: absolute;
+    width: 212px;
+    height: 131px;
+    left: calc(50% - 212px/2 - 354px);
+    top: 0px;
+    
+}
+
+.textusericon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    
+    width: 223px;
+    height: 83px;
+}
+
+.textartworks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    
+    width: 212px;
+    height: 83px;
+}
+
+.artist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    
+    position: absolute;
+    width: 212px;
+    height: 131px;
+    left: 472px;
+    top: 0px;
+}
+
+.textartist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    
+    width: 212px;
+    height: 83px;
+}
+
+.ethspent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    
+    position: absolute;
+    width: 212px;
+    height: 131px;
+    left: 708px;
+    top: 0px;
+}
+
+/* Inside auto layout */
+
+.textusericon h2, .artworks, .textartworks h2, .artist, .textartist h2, .ethspent, .texteth h2 {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.textusericon, .textusericon p, .textartworks, .textartworks p, .textartist, .textartist p, .texteth p{
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* Rest/White */
+
+.textusericon h2, .textartworks h2, .textartist h2, .texteth h2 {
+    color: #FFFFFF;
+}
+
+/* On White/Grey 100 */
+
+.textusericon p, .textartworks p, .textartist p, .texteth p {
+    color: #7780A1;
+}
+
+
+/* 300k */
+
+.textusericon h2, .textartist h2, .textartworks h2, .texteth h2 {
+    width: 223px;
+    height: 55px;
+}
+
+/* H2 */
+
+.textusericon h2, .textartworks h2, .textartist h2, .texteth h2 {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 115%;
+}
+
+/* or 55px */
+
+.textusericon h2, .textartworks h2, .textartist h2, .texteth h2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+/* Users Active */
+
+.textusericon p, .textartist p, .textartworks p, .texteth p {
+    width: 223px;
+    height: 24px;
+}
+
+/* Body Medium - 16px */
+
+.textusericon p, .textartworks p, .textartist p, .texteth p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+/* identical to box height, or 24px */
+
+.textusericon p, .textartworks p, .textartist p, .texteth p {
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+/* Vector */
+
+.artworksicon {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.artisticon {
+    position: absolute;
+    left: 0.04%;
+    right: 0.04%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.walleticon {
+    position: absolute;
+    left: 0.01%;
+    right: 0.01%;
+    top: 0%;
+    bottom: 0%;
+}

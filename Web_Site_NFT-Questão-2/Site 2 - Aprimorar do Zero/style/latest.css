@@ -1,0 +1,1043 @@
+.LatestAuctions {
+    /* Latest auctions */
+
+
+    position: absolute;
+    width: 1392px;
+    height: 884px;
+    left: 264px;
+    top: 1256px;
+
+}
+
+.LatestAuctions h4 {
+    /* Latest live auctions */
+
+
+    position: absolute;
+    width: 400px;
+    height: 45px;
+    left: 516px;
+    top: 0px;
+
+    /* H4 */
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* Rest/White */
+
+    color: #FFFFFF;
+}
+
+.ArrowSlide {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 1332px;
+    top: 408px;
+    
+}
+
+.CirculoSlide {
+    /* Ellipse */
+
+
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(38, 40, 64, 0.8);
+    box-shadow: 0px 25px 75px rgba(6, 7, 20, 0.1);
+    backdrop-filter: blur(3.5px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 50%;
+}
+
+.Seta {
+    /* Vector */
+
+
+    position: absolute;
+    left: 47.5%;
+    right: 46.5%;
+    top: 43.33%;
+    bottom: 43.33%;
+}
+
+.BoxesItems {
+    /* Boxes Items */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 2336px;
+    height: 767px;
+    left: -472px;
+    top: calc(50% - 767px/2 + 58.5px);
+}
+
+.BigBoxItem1 {
+    /* Big Box Item */
+
+
+    box-sizing: border-box;
+
+    width: 448px;
+    height: 767px;
+
+    /* On White/Dark 90 */
+
+    border: 1px solid #262840;
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.BigBoxItem1 h6 {
+    /* Tristique diam a, enim, eros tellus. Viverra etiam */
+
+
+    position: absolute;
+    width: 276px;
+    height: 50px;
+    left: 24px;
+    top: 568px;
+
+    /* H6 */
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+
+    /* Rest/White */
+
+    color: #FFFFFF;
+}
+
+.Price1 {
+    /* Price */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 8px 14px;
+    gap: 10px;
+
+    position: absolute;
+    width: 100px;
+    height: 36px;
+    right: 26px;
+    top: 570px;
+
+    /* Primary/Purple Light 15 */
+
+    background: rgba(81, 76, 255, 0.15);
+    border-radius: 4px;
+}
+
+.Price1 h7 {
+    /* 2.55 ETH */
+
+
+    width: 72px;
+    height: 20px;
+
+    /* H7 */
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.2px;
+
+    /* Primary/Purple Light 100 */
+
+    color: #514CFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.TimerLeft1 {
+    /* Time Left */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 119px;
+    height: 21px;
+    left: 24px;
+    top: 642px;
+}
+
+.TimerIcon1 {
+    /* Timer Icon */
+
+
+    width: 20px;
+    height: 20px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Timer1 {
+    /* Vector */
+
+
+    position: absolute;
+    width: 14.22px;
+    height: 16px;
+    left: calc(50% - 14.22px/2 - 0.39px);
+    top: calc(50% - 16px/2);
+
+    /* Rest/White */
+
+    background: #FFFFFF;
+}
+
+.TimerLeft1 p {
+    /* 57:15 min left */
+
+
+    width: 91px;
+    height: 21px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+
+    letter-spacing: 0.2px;
+
+    /* Rest/White */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.Dividir1 {
+/* Divider */
+
+
+position: absolute;
+height: 0px;
+left: 24px;
+right: 24px;
+bottom: 76px;
+
+/* On White/Dark 90 */
+
+border: 1px solid #262840;
+}
+
+.Bidding1 {
+    /* Bidding people */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 291px;
+    height: 32px;
+    left: 24px;
+    bottom: 24px;
+
+}
+
+.Bidding1 p {
+    /* 14 people are bidding */
+
+
+    width: 147px;
+    height: 21px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+
+    letter-spacing: 0.2px;
+
+    /* On White/Grey 100 */
+
+    color: #7780A1;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.Avatars1 {
+    /* Avatars */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 128px;
+    height: 32px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Avatar1_1 {
+    /* 01 */
+
+
+    width: 32px;
+    height: 32px;
+
+    background: url(.png);
+    /* On White/Dark 100 */
+
+    border: 5px solid #060714;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Avatar2_1 {
+/* 02 */
+
+
+width: 32px;
+height: 32px;
+
+background: url(.png);
+/* On White/Dark 100 */
+
+border: 5px solid #060714;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.Avatar3_1 {
+    /* 03 */
+
+
+    width: 32px;
+    height: 32px;
+
+    background: url(.png);
+    /* On White/Dark 100 */
+
+    border: 5px solid #060714;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.Avatar4_1 {
+    /* 04 */
+
+
+    width: 32px;
+    height: 32px;
+
+    background: url(.jpg);
+    /* On White/Dark 100 */
+
+    border: 5px solid #060714;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.Fav1 {
+    /* Fav */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 46px;
+    height: 21px;
+    right: 24px;
+    bottom: 30px;
+
+}
+
+.Fav1 p {
+    /* 54 */
+
+
+    width: 18px;
+    height: 21px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+
+    letter-spacing: 0.2px;
+
+    /* On White/Grey 100 */
+
+    color: #7780A1;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.HeartIcon1 {
+    /* Heart Icon */
+
+
+    width: 20px;
+    height: 20px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Heart1 {
+    /* Vector */
+
+
+    position: absolute;
+    left: 8.33%;
+    right: 8.34%;
+    top: 12.5%;
+    bottom: 13.19%;
+
+    /* Accent/Red */
+
+    /* background: #FB4539; */
+}
+
+.Item1 {
+    /* Item */
+
+
+    position: absolute;
+    width: 400px;
+    height: 520px;
+    left: 24px;
+    top: 24px;
+
+    border-radius: 20px;
+}
+
+.Img10 {
+    /* Image */
+
+
+    position: absolute;
+    width: 400px;
+    height: 520px;
+    left: 0px;
+    top: 0px;
+
+    background: url(.png);
+}
+
+.ItemBlur1 {
+    /* Item Blur Shadow */
+
+
+    position: absolute;
+    width: 400px;
+    height: 520px;
+    left: 24px;
+    top: 40px;
+
+    opacity: 0.2;
+    filter: blur(17.5px);
+    border-radius: 20px;
+}
+
+.Img10_1 {
+    /* Image */
+
+
+    position: absolute;
+    width: 400px;
+    height: 520px;
+    left: 0px;
+    top: 0px;
+
+    background: url(.png);
+    border-radius: 20px;
+}
+
+.BigBoxItem2 {
+    /* Big Box Item */
+
+
+    box-sizing: border-box;
+
+    width: 448px;
+    height: 767px;
+
+    /* On White/Dark 90 */
+
+    border: 1px solid #262840;
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.BigBoxItem2 h6 {
+    /* Tristique diam a, enim, eros tellus. Viverra etiam */
+
+
+    position: absolute;
+    width: 276px;
+    height: 50px;
+    left: 24px;
+    top: 568px;
+
+    /* H6 */
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+
+    /* Rest/White */
+
+    color: #FFFFFF;
+}
+
+.Price2 {
+    /* Price */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 8px 14px;
+    gap: 10px;
+
+    position: absolute;
+    width: 97px;
+    height: 36px;
+    right: 26px;
+    top: 570px;
+
+    /* Primary/Purple Light 15 */
+
+    background: rgba(81, 76, 255, 0.15);
+    border-radius: 4px;
+}
+
+.Price2 h7 {
+    /* 2.55 ETH */
+
+
+    width: 69px;
+    height: 20px;
+
+    /* H7 */
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.2px;
+
+    /* Primary/Purple Light 100 */
+
+    color: #514CFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.TimerLeft2 {
+/* Time Left */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 112px;
+height: 21px;
+left: 24px;
+top: 642px;
+}
+
+.TimerLeft2 p {
+/* 57:15 min left */
+
+
+width: 84px;
+height: 21px;
+
+/* Body Normal - 14px */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+/* identical to box height, or 21px */
+
+letter-spacing: 0.2px;
+
+/* Rest/White */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.TimerIcon2 {
+/* Timer Icon */
+
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.Timer2 {
+/* Vector */
+
+
+position: absolute;
+width: 14.22px;
+height: 16px;
+left: calc(50% - 14.22px/2 - 0.39px);
+top: calc(50% - 16px/2);
+
+/* Rest/White */
+
+background: #FFFFFF;
+}
+
+.Dividir2 {
+/* Divider */
+
+
+position: absolute;
+height: 0px;
+left: 24px;
+right: 24px;
+bottom: 76px;
+
+/* On White/Dark 90 */
+
+border: 1px solid #262840;
+}
+
+.Bidding2 {
+/* Bidding people */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 293px;
+height: 32px;
+left: 24px;
+bottom: 24px;
+}
+
+.Bidding2 p {
+/* 14 people are bidding */
+
+
+width: 149px;
+height: 21px;
+
+/* Body Normal - 14px */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+/* identical to box height, or 21px */
+
+letter-spacing: 0.2px;
+
+/* On White/Grey 100 */
+
+color: #7780A1;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.Avatars2 {
+/* Avatars */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 128px;
+height: 32px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.Avatar1_2 {
+/* 01 */
+
+
+width: 32px;
+height: 32px;
+
+background: url(.jpg);
+/* On White/Dark 100 */
+
+border: 5px solid #060714;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.Avatar2_2 {
+/* 02 */
+
+
+width: 32px;
+height: 32px;
+
+background: url(.jpg);
+/* On White/Dark 100 */
+
+border: 5px solid #060714;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.Avatar3_2 {
+/* 03 */
+
+
+width: 32px;
+height: 32px;
+
+background: url(.png);
+/* On White/Dark 100 */
+
+border: 5px solid #060714;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.Avatar4_2 {
+/* 04 */
+
+
+width: 32px;
+height: 32px;
+
+background: url(.jpg);
+/* On White/Dark 100 */
+
+border: 5px solid #060714;
+
+/* Inside auto layout */
+
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+
+.Fav2 {
+/* Fav */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 53px;
+height: 21px;
+right: 24px;
+bottom: 30px;
+}
+
+.Fav2 p {
+/* 54 */
+
+
+width: 25px;
+height: 21px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+/* identical to box height, or 21px */
+
+letter-spacing: 0.2px;
+
+/* On White/Grey 100 */
+
+color: #7780A1;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.HeartIcon2 {
+/* Heart Icon */
+
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.Heart2 {
+/* Vector */
+
+
+position: absolute;
+left: 8.33%;
+right: 8.34%;
+top: 12.5%;
+bottom: 13.19%;
+
+/* On White/Grey 100 */
+
+border: 1px solid #7780A1;
+}
+
+.Item2 {
+/* Item */
+
+
+position: absolute;
+width: 400px;
+height: 520px;
+left: 24px;
+top: 24px;
+
+border-radius: 20px;
+}
+
+.Img11 {
+/* Image */
+
+
+position: absolute;
+width: 400px;
+height: 520px;
+left: 0px;
+top: 0px;
+
+background: url(.png);
+}
+
+.ItemBlur2 {
+/* Item Blur Shadow */
+
+
+position: absolute;
+width: 400px;
+height: 520px;
+left: 24px;
+top: 40px;
+
+opacity: 0.2;
+filter: blur(17.5px);
+border-radius: 20px;
+}
+
+.Img11_1 {
+/* Image */
+
+
+position: absolute;
+width: 400px;
+height: 520px;
+left: 0px;
+top: 0px;
+
+background: url(.png);
+}
+
